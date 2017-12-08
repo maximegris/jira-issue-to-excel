@@ -1,0 +1,18 @@
+{
+  "name": "jira-issue-to-excel",
+  "version": "1.0.0",
+  "description": "Get jira issue and generate Excel/csv",
+  "main": "index.js",
+  "scripts": {},
+  "author": "maxime.gris@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "0.1.0",
+    "dateformat": "3.0.2",
+    "json2xls": "0.1.2",
+    "minimist": "1.2.0",
+    "request": "2.83.0",
+    "request-promise": "4.2.2",
+    "utf8": "2.1.2"
+  }
+}
