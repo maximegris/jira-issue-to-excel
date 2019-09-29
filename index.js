@@ -7,7 +7,7 @@ const json2xls = require('json2xls');
 const fs = require('fs');
 
 if (!argv.p || !argv.p || !argv.v) {
-    console.error('Usage:' + __filename + '-u username:password -p MONPROJET -v Version1,Version2,Version3');
+    console.error('Usage:' + __filename + '-u USERNAME:API_TOKEN -p MONPROJET -v VERSION1,VERSION2,VERSION3');
 } else {
 
     var bytes = utf8.encode(argv.u);
